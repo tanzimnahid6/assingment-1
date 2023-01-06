@@ -52,7 +52,16 @@
   color: #f3edea;
   font-size: 15px;
   cursor: pointer;
+  transition: all 250ms;
 }
+.button-custom:hover,
+  .button-custom:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .button-custom:hover {
+    transform: translateY(-1px);
+  }
 /* custome menu style end */
 
 
